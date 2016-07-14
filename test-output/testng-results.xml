@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="30554" started-at="2016-06-25T04:31:25Z" finished-at="2016-06-25T04:31:55Z">
+  <suite name="Default suite" duration-ms="22408" started-at="2016-07-03T05:16:44Z" finished-at="2016-07-03T05:17:06Z">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="16301" started-at="2016-06-25T04:31:25Z" finished-at="2016-06-25T04:31:41Z">
-      <class name="grid.Grid1">
-        <test-method status="PASS" signature="sample(java.lang.String)[pri:0, instance:grid.Grid1@190c9c3]" name="sample" duration-ms="16246" started-at="2016-06-25T10:01:25Z" finished-at="2016-06-25T10:01:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="22408" started-at="2016-07-03T05:16:44Z" finished-at="2016-07-03T05:17:06Z">
+      <class name="excel.DatadrivenTesting2">
+        <test-method status="PASS" signature="registrationTest()[pri:0, instance:excel.DatadrivenTesting2@d2e7d9]" name="registrationTest" duration-ms="22378" started-at="2016-07-03T10:46:44Z" finished-at="2016-07-03T10:47:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- grid.Grid1 -->
-    </test> <!-- Regression1 -->
-    <test name="Regression123" duration-ms="14201" started-at="2016-06-25T04:31:41Z" finished-at="2016-06-25T04:31:55Z">
-      <class name="grid.Grid1">
-        <test-method status="PASS" signature="sample(java.lang.String)[pri:0, instance:grid.Grid1@d992b2]" name="sample" duration-ms="14185" started-at="2016-06-25T10:01:41Z" finished-at="2016-06-25T10:01:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- grid.Grid1 -->
-    </test> <!-- Regression123 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- registrationTest -->
+      </class> <!-- excel.DatadrivenTesting2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
